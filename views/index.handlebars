@@ -1,0 +1,37 @@
+<div class="main_container">
+  <div class="container">
+
+    <div>
+      <h3>City Temperature </h3>
+    </div>
+    <form action='/' method='POST'>
+      <input type="text" name="cityName" placeholder="write city name ..." class="city">
+      <div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+{{#if cityName}}
+<div class="result">
+
+  <p class="output"> Weather Description in <span id="city">{{cityName}}</span> is <span
+      id="city">{{description}}</span>&#x2601; </p>
+  <p class="output"> The Temperature now is : <span id="city">{{temp}}</span>
+    &#8451;</p>
+  <p class="output"> Feels like : <span id="city">{{feels_like}}</span>
+    &#8451;</p>
+  <p class="output"> The Humidity is : <span id="city">{{humidity}}</span>
+    &#8451;</p>
+
+</div>
+{{/if}}
+{{#if error}}
+
+<div class="result - red">
+
+  <p> {{message}}</p>
+
+</div>
+{{/if}}

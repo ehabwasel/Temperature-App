@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(196, 190, 190);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main_container {
+  margin: 5% auto;
+  text-align: center;
+  align-items: center;
+  width: 35%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(109, 113, 148);
+  border-radius: 5%;
+}
+
+.container {
+  margin: 20px;
+  color: white;
+}
+.city {
+  margin: 20px;
+  width: 250px;
+  height: 40px;
+}
+.output {
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+}
+#city {
+  color: rgb(216, 23, 23);
+  font-weight: bold;
+}
+.result {
+  width: 35%;
+  height: 250px;
+  background-color: white;
+  margin: auto;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5%;
+}
+.red {
+  background-color: rgb(212, 65, 65);
+  background: url("https://assets.prestashop2.com/sites/default/files/styles/blog_750x320/public/blog/2019/10/banner_error_404.jpg?itok=eAS4swln")
+    no-repeat center center;
+  background-size: cover;
+  padding: 0;
+}
+.output {
+  color: rgb(19, 16, 16);
+}
